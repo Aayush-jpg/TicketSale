@@ -22,20 +22,6 @@ acceptSwap(uint ticketId): Allows users to accept a swap offer for their ticket.
 resaleTicket(uint price): Allows users to put their ticket for resale.
 acceptResale(uint ticketId): Allows users to buy a ticket listed for resale.
 
-**Project Structure**
-ticketsale/
-├── contracts/
-│   ├── TicketSale.sol             
-├── test/
-│   ├── TicketSale.test.js          # Test cases for TicketSale contract       
-├── scripts/
-│   └── deploy.js # Script to deploy the contract to a network
-├── .env                             # Environment variables (for sensitive data)
-├── compile.js
-├── .gitignore                       # Git ignore file
-├── truffle-config.js               # Truffle configuration file
-├── package.json                     # Node.js package configuration
-└── README.md                        # Project documentation
 
 
 
