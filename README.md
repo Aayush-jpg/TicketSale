@@ -27,8 +27,7 @@ ticketsale/
 ├── contracts/
 │   ├── TicketSale.sol             
 ├── test/
-│   ├── TicketSale.test.js          # Test cases for TicketSale contract
-                 
+│   ├── TicketSale.test.js          # Test cases for TicketSale contract       
 ├── scripts/
 │   └── deploy.js # Script to deploy the contract to a network
 ├── .env                             # Environment variables (for sensitive data)
