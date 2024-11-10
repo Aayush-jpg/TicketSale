@@ -1,11 +1,36 @@
 {
-  "name": "hardhat-project",
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@typechain/hardhat": "^9.1.0",
-    "hardhat": "^2.22.15"
+  "name": "ticket-sale-contract",
+  "version": "1.0.0",
+  "description": "Smart contract for ticket sales",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generateFiles.js",
+    "test": "mocha --timeout 10000",
+    "deploy": "node scripts/deploy.js"
   },
   "dependencies": {
-    "ethers": "^5.7.2"
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "bip39": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "ganache": "^6.4.5",
+    "request": "^2.88.2",
+    "secp256k1": "^5.0.1",
+    "semver": "^7.6.3",
+    "solc": "^0.8.28",
+    "tar": "^7.4.3",
+    "uuid": "^11.0.2",
+    "web3": "^1.10.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.8.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
   }
 }
